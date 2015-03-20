@@ -22,6 +22,7 @@ plugin.
 ### 3. Example of Heat_Etcd
 
 the following exampl are represented as HOT format
+
 '''sample
 etcd_record:
   type : CHT::Etcd:Node
