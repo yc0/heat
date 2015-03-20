@@ -19,10 +19,10 @@ Only the process "heat-engine" needs to be restarted to load the new installed
 plugin.
 
 
-### 3. Example of ExtraRoute
+### 3. Example of Heat_Etcd
 
 the following exampl are represented as HOT format
-
+'''sample
 etcd_record:
   type : CHT::Etcd:Node
   properties:
@@ -31,3 +31,4 @@ etcd_record:
     timeout : {get_param: etcd_timeout}
     image : {get_param: etcd_retry}
     instance_id : {get_resource: docker_container}
+'''
