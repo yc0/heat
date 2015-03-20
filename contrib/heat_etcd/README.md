@@ -23,7 +23,7 @@ plugin.
 
 the following exampl are represented as HOT format
 
-'''sample
+```sample
 etcd_record:
   type : CHT::Etcd:Node
   properties:
@@ -32,4 +32,4 @@ etcd_record:
     timeout : {get_param: etcd_timeout}
     image : {get_param: etcd_retry}
     instance_id : {get_resource: docker_container}
-'''
+```
